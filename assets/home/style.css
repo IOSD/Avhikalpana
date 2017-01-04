@@ -87,7 +87,7 @@ blockquote{margin:0px;}
 
 .dt-sc-no-border.dt-sc-team-wrapper{border-left:none;}
 
-img, iframe{max-width:100%;}
+img, iframe{max-width:100%; height: 100%;}
 
 #map{width:447px; height:260px; max-width:100%;}
 
