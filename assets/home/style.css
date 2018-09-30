@@ -118,7 +118,7 @@ option{color:#a9a9a9;}
 
 textarea{width:100%; height:112px;} 
 
-input[type=submit]{background-color:#A0CE4E; border:1px solid #8BB146; box-shadow:0 5px 0 #799841; text-shadow:1px 1px 1px #617D39; color:#FFFFFF; font-size:25px; border-radius:3px; display:inline-block;
+input[type=submit]{color:#FFFFFF; font-size:25px; border-radius:3px; display:inline-block;
 line-height:34px; padding:9px 28px 7px; text-transform:uppercase;}
 
 @-moz-document url-prefix(){ input[type=submit] {padding:9px 24px 7px;}}
