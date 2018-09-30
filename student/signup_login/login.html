@@ -1,62 +1,187 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <!-- Mirrored from avhikalpana.org/student/signup_login/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Dec 2016 07:37:11 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- /Added by HTTrack -->
+
 <head>
-	<!--Import Google Icon Font-->
-	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!--Import materialize.css-->
-	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">    
-	<title>Avhikalpana- Sapno Ki Udaan</title>
-	<link rel="shortcut icon" href="../../assets/home/images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="../../assets/home/images/favicon.ico" type="image/x-icon">
-	<link href="../../assets/home/style.css" rel="stylesheet" type="text/css">
-	<link href="../../assets/home/css/responsive.css" rel="stylesheet" type="text/css">
-	<link href="../../assets/home/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="../../assets/home/css/shortcodes.css" rel="stylesheet" type="text/css">
-	<!--slider font-->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800' rel='stylesheet' type='text/css'>
-	<!--meanmenu-->
-	<link href="../../assets/home/css/meanmenu.css" rel="stylesheet" type="text/css" media="all" />
-	<!--prettyPhoto-->
-	<link href="../../assets/home/css/prettyPhoto.css" rel="stylesheet" media="all" />
-	<!--animation stylesheet-->
-	<link href="../../assets/home/css/animation.css" rel='stylesheet' type="text/css">
-	<link rel="stylesheet" href="../../assets/home/css/layerslider.css" type="text/css">
-<!--[if IE 7]>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <meta http-equiv="content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Avhikalpana- Sapno Ki Udaan</title>
+    <link rel="shortcut icon" href="../../assets/home/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../assets/home/images/favicon.ico" type="image/x-icon">
+    <link href="../../assets/home/style.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/home/css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/home/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/home/css/shortcodes.css" rel="stylesheet" type="text/css">
+    <!--slider font-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800' rel='stylesheet' type='text/css'>
+    <!--meanmenu-->
+    <link href="../../assets/home/css/meanmenu.css" rel="stylesheet" type="text/css" media="all" />
+    <!--prettyPhoto-->
+    <link href="../../assets/home/css/prettyPhoto.css" rel="stylesheet" media="all" />
+    <!--animation stylesheet-->
+    <link href="../../assets/home/css/animation.css" rel='stylesheet' type="text/css">
+    <link rel="stylesheet" href="../../assets/home/css/layerslider.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!--[if IE 7]>
 <link href="http://avhikalpana.org/assets/home/css/font-awesome-ie7.css" rel="stylesheet" type="text/css">
 <![endif]-->
-<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script type="text/javascript" src="../../assets/home/js/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="../../assets/home/js/modernizr-2.6.2.min.js"></script>
 
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Avhikalpana</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avhikalpana</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            /* background-color: aqua; */
+            background-size: cover;
+        }
+
+        .box {
+            margin-top: 1050px;
+            margin-left: 540px;
+            margin-bottom: -1000px;
+            transform: translate(-50%, -50%);
+            width: 1200px;
+            padding: 40px;
+            background: rgba(0, 0, 0, .8);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+            border-radius: 10px;
+        }
+
+        .box h2 {
+            margin: 0 0 30px;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        .box .inputbox {
+            position: relative;
+        }
+
+        .box .inputbox input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+        }
+
+        .box .inputbox select {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+        }
+
+        option {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: rgba(0, 0, 0, .8);
+        }
+
+        .box .inputbox label {
+            position: absolute;
+            top: 0;
+            left: 3%;
+            letter-spacing: 1px;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .box .doc label {
+            position: absolute;
+            top: -18px;
+            left: 15px;
+            letter-spacing: 1px;
+            padding: 10px 0;
+            font-size: 12px;
+            color: #fff;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .box .inputbox input:focus~label,
+        .box .inputbox input:valid~label {
+            top: -18px;
+            left: 15px;
+            color: #03a9f4;
+            font-size: 12px;
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* input[type=file]~label{
+            top: -18px;
+            left: 15px;
+            color: white;
+            font-size: 12px;
+        } */
+    </style>
+
 </head>
 
 <body>
-<!--wrapper starts-->
+    <!--wrapper starts-->
     <div class="wrapper">
-    	<!--header starts-->
+        <!--header starts-->
         <header>
-        	<!--header_top starts-->
+            <!--header_top starts-->
             <div class="header_top">
-            	<!--container starts-->
+                <!--container starts-->
                 <div class="container">
                     <div class="logo">
-                        <a href="../../home.html"><img src="../../assets/home/images/logo.png" class="yos" alt="Avhikalpana" title="Avhikalpana"></a>
-                    </div> 
+                        <a href="../../home.html">
+                            <img src="../../assets/home/images/logo.png" class="yos" alt="Avhikalpana" title="Avhikalpana">
+                        </a>
+                    </div>
                     <div class="alignright yo">
-                    	<a href="../../home/donate.html">Donate Now</a>
-                        <a href="../../home/get_involved.html">Volunteer</a>                        
+                        <a href="../../home/donate.html">Donate Now</a>
+                        <a href="../../home/get_involved.html">Volunteer</a>
                     </div>
                 </div>
-                <!--container ends-->     
+                <!--container ends-->
             </div>
             <!--header_top ends-->
             <!--menu-container starts-->
@@ -70,7 +195,9 @@
                         <li>
                             <a href="#">About</a>
                             <ul>
-                                <li><a href="../../home/about.html">Vision & Mission</a></li>
+                                <li>
+                                    <a href="../../home/about.html">Vision & Mission</a>
+                                </li>
                                 <!-- <li>
                                 	<a href="#">Services</a>
                                     <ul>	
@@ -79,176 +206,316 @@
                                         <li><a href="#">Pixel Perfect</a></li>
                                     </ul>
                                 </li> -->
-                                <li><a href="../../home/about.html">Excecutive Board</a></li>
-                                <li><a href="../../index.html#team">Our team</a></li>
-                                <li><a href="../../home/about.html">Surveys & Reports</a></li>
+                                <li>
+                                    <a href="../../home/about.html">Excecutive Board</a>
+                                </li>
+                                <li>
+                                    <a href="../../index.html#team">Our team</a>
+                                </li>
+                                <li>
+                                    <a href="../../home/about.html">Surveys & Reports</a>
+                                </li>
                             </ul>
                         </li>
                         <li>
                             <a>Our Work</a>
-                            <ul>	
-                                 <li>
+                            <ul>
+                                <li>
                                     <a href="../../home/pre_university.html">Pre-University</a>
-                                    <ul>    
-                                        <li><a href="../../home/pre_university.html">Children Education</a></li>
-                                        <li><a href="../../home/pre_university.html">Mentor</a></li>
-                                        <li><a href="../../home/pre_university.html">Resources Collection</a></li>
+                                    <ul>
+                                        <li>
+                                            <a href="../../home/pre_university.html">Children Education</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/pre_university.html">Mentor</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/pre_university.html">Resources Collection</a>
+                                        </li>
                                     </ul>
                                 </li>
-                          
-                             <li>
+
+                                <li>
                                     <a href="../../home/university.html">University</a>
-                                    <ul>    
-                                        <li><a href="../../home/university.html">Academia</a></li>
-                                        <li><a href="../../home/university.html">Student Grievences</a></li>
-                                        <li><a href="../../home/university.html">Placement Skills</a></li>
-                                        <li><a href="../../home/university.html">Student Counselling</a></li>
-                                        <li><a href="../../home/university.html">Get Mentored</a></li>
+                                    <ul>
+                                        <li>
+                                            <a href="../../home/university.html">Academia</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/university.html">Student Grievences</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/university.html">Placement Skills</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/university.html">Student Counselling</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/university.html">Get Mentored</a>
+                                        </li>
                                     </ul>
                                 </li>
-                                 <li>
+                                <li>
                                     <a href="../../home/alumni.html">Alumni</a>
-                                    <ul>    
-                                        <li><a href="../../home/alumni.html">University Relations</a></li>
-                                        <li><a href="../../home/alumni.html">Admin Support</a></li>
-                                        <li><a href="../../home/alumni.html">Be a Mentor</a></li>
+                                    <ul>
+                                        <li>
+                                            <a href="../../home/alumni.html">University Relations</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/alumni.html">Admin Support</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/alumni.html">Be a Mentor</a>
+                                        </li>
                                     </ul>
                                 </li>
-                                 <li>
+                                <li>
                                     <a href="../../home/institutions.html">Institutions</a>
-                                    <ul>    
-                                        <li><a href="../../home/institutions.html">Skill Development Workshops</a></li>
-                                        <li><a href="../../home/institutions.html">Society Formation</a></li>
-                                        <li><a href="../../home/institutions.html">Resource Sharing</a></li>
+                                    <ul>
+                                        <li>
+                                            <a href="../../home/institutions.html">Skill Development Workshops</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/institutions.html">Society Formation</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/institutions.html">Resource Sharing</a>
+                                        </li>
                                     </ul>
                                 </li>
                         </li>
-                          </ul>
+                        </ul>
                         <li>
                             <a href="../../home.html#new">New Initiatives</a>
                         </li>
                         <li>
                             <a href="#">Get Involved</a>
-                            <ul>	
-                            	<li><a href="../../home/get_involved.html">Sponsor a Child's Education</a></li>
-                                <li><a href="../../home/get_involved.html">Mentor a Student</a></li>
+                            <ul>
                                 <li>
-                                <a href="../../home/donate.html">Donate</a>
-                                <ul>    
-                                        <li><a href="../../home/donate.html">Money</a></li>
-                                        <li><a href="../../home/donate.html">Resources</a></li>                                        
-                                </ul>
-                              
+                                    <a href="../../home/get_involved.html">Sponsor a Child's Education</a>
                                 </li>
                                 <li>
-                                <a href="../../home/get_involved.html">Partnerships</a>
-                                <ul>    
-                                        <li><a href="../../home/get_involved.html">As an NGO</a></li>
-                                        <li><a href="../../home/get_involved.html">As an Institute</a></li>
-                                        <li><a href="../../home/get_involved.html">As a Society</a></li>
-                                        <li><a href="../../home/get_involved.html">As an Corporate</a></li>
+                                    <a href="../../home/get_involved.html">Mentor a Student</a>
+                                </li>
+                                <li>
+                                    <a href="../../home/donate.html">Donate</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../home/donate.html">Money</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/donate.html">Resources</a>
+                                        </li>
                                     </ul>
-                               
-                                </li>
-                                <li><a href="../../home/get_involved.html">Volunteer</a></li>
-                                <li><a href="../../home/get_involved.html">Internship</a></li>
 
-                               
+                                </li>
+                                <li>
+                                    <a href="../../home/get_involved.html">Partnerships</a>
+                                    <ul>
+                                        <li>
+                                            <a href="../../home/get_involved.html">As an NGO</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/get_involved.html">As an Institute</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/get_involved.html">As a Society</a>
+                                        </li>
+                                        <li>
+                                            <a href="../../home/get_involved.html">As an Corporate</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                                <li>
+                                    <a href="../../home/get_involved.html">Volunteer</a>
+                                </li>
+                                <li>
+                                    <a href="../../home/get_involved.html">Internship</a>
+                                </li>
+
+
                             </ul>
                         </li>
-                        
+
                         <li>
                             <a href="#footer_contact">Contact</a>
                         </li>
 
-                                                <li><a href="login.html">Student Login</a></li>
-                                            </ul>
+                        <li>
+                            <a href="login.html">Student Login</a>
+                        </li>
+                    </ul>
                 </nav>
                 <!--menu ends-->
             </div>
             <!--menu-container ends-->
         </header>
         <!--header ends-->
-<div class="container">
+        <div class="container">
 
-	<div style="text-align: center;font-size: 18px; color: black;">
+            <div style="text-align: center;font-size: 18px; color: black;">
 
-				</div>
-
-
-	<div class="column dt-sc-one-fourth" style="margin-top:50px;">
-		<aside class="widget mailchimp">
-			
-			<h3>STUDENT LOGIN</h3>
-
-			<form action="http://avhikalpana.org/student/signup_login/student_login_validate" method="post" class="col s12 m12" style="margin-top:50px;">
-				<p>
-					<input type="email" required="" placeholder="Email" name="student_login_email">
-				</p>
-				<p>
-					<input type="password" required="" placeholder="Password" name="student_login_password"></input>
-				</p>
-				<p>
-					<input type="hidden" name="cross" value="f85295447eadb4dc28b1c510af1fba1a" />
-				</p>
-				<p>
-					<input type="submit" value="Login" name="submit" class="dt-sc-button small palebrown">
-				</p>
-			</form>
-		</aside>
-	</div>
-
-	<div class="column dt-sc-one-third" style="margin-top:50px;">
-	</div>
-
-	<div class="column dt-sc-one-fourth" style="margin-top:50px;">
-		<aside class="widget mailchimp">
-			
-			<h3>STUDENT SIGNUP</h3>
-
-			<form action="http://avhikalpana.org/student/signup_login/student_signup" method="post" class="col s12 m12" style="margin-top:50px;">
-				<p>
-					<input type="text" required="" placeholder="Full Name" name="student_full_name">
-				</p>
-				<p>
-					<input type="text" required="" placeholder="School/College Name" name="student_school_college_name">
-				</p>
-				<p>
-					<input type="text" required="" placeholder="Phone" name="student_phone">
-				</p>
-				<p>
-					<input type="email" required="" placeholder="Email" name="student_email">
-				</p>
-				<p>
-					<input type="password" required="" placeholder="Password" name="student_password"></input>
-				</p>
-				<p>
-					<input type="password" required="" placeholder="Repeat Password" name="student_password_repeat"></input>
-				</p>
-				<p>
-					<input type="hidden" name="cross" value="f85295447eadb4dc28b1c510af1fba1a" />
-				</p>
-				<p>
-					<input type="submit" value="SignUP" name="submit" class="dt-sc-button small palebrown">
-				</p>
-			</form>
-		</aside>
-	</div>
+            </div>
 
 
-</div>
-<!--footer starts-->
-<footer id="footer_contact">
-   <!--container starts-->
-   <div class="container">
-    <div class="column dt-sc-one-half first">
-        <aside class="widget widget_text">
-            <h3>About</h3>
-            <p>Abhikalpana is an NGO with a team of dynamic young professionals who aim to help the pre-college, college students and the alumni by making strong pool of people who can help each other when it comes to problem solving.</p>
-        </aside>
-    </div> 
+            <div class="column dt-sc-one-fourth" style="margin-top:50px;">
+                <aside class="widget mailchimp">
+                    <h1 class="col-lg-5" style="margin: auto; margin-left: 165%; width: 200px;">SIGNUP</h1>
+                    <div class="box">
+                        <h2>Personal Information</h2>
+                        <div class="">
+                            <div class="row">
+                                <form action="">
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="Name" required>
+                                        <label>Name</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="Surname" required>
+                                        <label>Surname</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="Email" required>
+                                        <label>Email</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="number" name="Telephone" required>
+                                        <label>Telephone</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="Nationality" required>
+                                        <label>Nationality</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <select name="language">
+                                            <option disabled selected value style="display:none">Language</option>
+                                            <option value="English">English</option>
+                                            <option value="Espanol">Español</option>
+                                            <option value="Frances">Francés</option>
+                                            <option value="Ingles">Inglés</option>
+                                            <option value="Italiano">Italiano</option>
+                                            <option value="Aleman">Aleman</option>
+                                            <option value="Polaco">Polaco</option>
+                                            <option value="Otro">Otro</option>
+                                        </select>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="university" required>
+                                        <label>University or school (current or past):</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <select name="Academia">
+                                            <option disabled selected value style="display:none">Academic status</option>
+                                            <option value="Student">Student</option>
+                                            <option value="Graduate">Graduate</option>
+                                        </select>
+                                        <!-- <label>Academic status</label> -->
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <h2>Information about your languages</h2>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="Native-language" required>
+                                        <label>Native language:</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="other-language" required>
+                                        <label>Which other languages can you speak fluently?</label>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <h2>Your documents</h2>
+                                    <div class="inputbox doc col-lg-5 m-4" style="display:inline-block">
+                                        <input type="file" name="photo" accept="image/*" required>
+                                        <label>Upload your photo</label>
+                                    </div>
+                                    <div class="inputbox doc col-lg-5 m-4" style="display:inline-block">
+                                        <input type="file" name="other-doc" required>
+                                        <label>Upload your CV, cover letter and other documents</label>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <h2>Areas in which you’d like to do your internship</h2>
+                                    <!-- <h3 style="color: aliceblue">Choose between 1 and 3 options</h3> -->
+                                    <div class="inputbox" style="color: #fff">
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-4 m-4" style="display:inline-block">Business, finance and HR</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-3 m-4" style="display:inline-block">Tourism, reception and animation</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-4 m-4" style="display:inline-block">Trade and negotiation</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-3 m-4" style="display:inline-block">Teaching and learning</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-4 m-4" style="display:inline-block">Technical and engineering</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-3 m-4" style="display:inline-block">IT and technology</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-4 m-4" style="display:inline-block">Restaurants and kitchen</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-3 m-4" style="display:inline-block">Marketing, comunication and social networks</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-4 m-4" style="display:inline-block">Logistics, import and export</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-3 m-4" style="display:inline-block">Beauty care and SPA</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-4 m-4" style="display:inline-block">Customer service, PR, and events</div>
+                                        <input class="col-lg-1 m-4" style="display:inline-block" type="checkbox" name="other-doc" value="" required>
+                                        <div class="col-lg-3 m-4" style="display:inline-block">Translation</div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <h2>Details of your internship</h2>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="photo" required>
+                                        <label>Where would you like to do your internship?</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="other-doc" required>
+                                        <label>When can you start?</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="photo" required>
+                                        <label>How many months can you stay?</label>
+                                    </div>
+                                    <div class="inputbox col-lg-5 m-4" style="display:inline-block">
+                                        <input type="text" name="other-doc" required>
+                                        <label>If you have any comments, leave them here!</label>
+                                    </div>
 
-               <!--  <div class="column dt-sc-one-fourth">
+                                    <div>
+                                        <input type="submit" name="" value="Login" style="background-color: rgb(86, 67, 56); margin-right: 48%; border-radius: 12px;">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </aside>
+            </div>
+
+
+
+
+
+
+        </div>
+        <!--footer starts-->
+        <footer id="footer_contact">
+            <!--container starts-->
+            <div class="container">
+                <div class="column dt-sc-one-half first">
+                    <aside class="widget widget_text">
+                        <h3>About</h3>
+                        <p>Abhikalpana is an NGO with a team of dynamic young professionals who aim to help the pre-college,
+                            college students and the alumni by making strong pool of people who can help each other when
+                            it comes to problem solving.</p>
+                    </aside>
+                </div>
+
+                <!--  <div class="column dt-sc-one-fourth">
                 	<aside class="widget widget_recent_entries">
                     	<h3>News</h3>
                         <ul>
@@ -277,67 +544,69 @@
                     </aside>
                 </div>
             -->
-            <div class="column dt-sc-one-fourth">
-               <aside class="widget widget_text">
-                   <h3>Get in Touch</h3>
-                   <!--  <div id="footer_map"> </div> -->
-                   <ul>
-                    <li>
-                        <span class="fa fa-home"></span>
-                        <p>
-                           <strong>Address</strong>:
-                           Delhi Technological University
-                       </p>
-                   </li>
-                   <li>
-                    <span class="fa fa-envelope-o"></span>
-                    <p>
-                       <strong>Email</strong>:
-                       <a href="#"> shaileshpandey@dce.ac.in</a>
-                   </p>
-               </li>
-               <li>
-                <span class="fa fa-phone-square"></span>
-                <p>
-                   <strong>Contact no</strong>:
-                   9213245684
-               </p>
-           </li>
-       </ul>  
-   </aside>            
-</div>   
+                <div class="column dt-sc-one-fourth">
+                    <aside class="widget widget_text">
+                        <h3>Get in Touch</h3>
+                        <!--  <div id="footer_map"> </div> -->
+                        <ul>
+                            <li>
+                                <span class="fa fa-home"></span>
+                                <p>
+                                    <strong>Address</strong>: Delhi Technological University
+                                </p>
+                            </li>
+                            <li>
+                                <span class="fa fa-envelope-o"></span>
+                                <p>
+                                    <strong>Email</strong>:
+                                    <a href="#"> shaileshpandey@dce.ac.in</a>
+                                </p>
+                            </li>
+                            <li>
+                                <span class="fa fa-phone-square"></span>
+                                <p>
+                                    <strong>Contact no</strong>: 9213245684
+                                </p>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
 
-<div class="column dt-sc-one-fourth">
-   <aside class="widget mailchimp">
-       <h3>Contact</h3>                        
-       <form method="post" action="http://avhikalpana.org/home/contact_form_data">
-        <p>
-            <input type="text" required="" placeholder="Name" name="txtname">
-        </p>
-        <p>
-            <input type="email" required="" placeholder="Email" name="txtemail">
-        </p>
-        <p>
-            <textarea  placeholder="Message" name="txtmessage"></textarea>
-        </p>
-        <p>
-            <input type="hidden" name="cross" value="f85295447eadb4dc28b1c510af1fba1a" />
-        </p>
-        <p>
-            <input type="submit" value="Contact" name="submit" class="dt-sc-button small palebrown">
-        </p>
-    </form>
-</aside>
-</div>        
-</div>
-<!--container ends--> 
-<!--copyright starts-->
-<div class="copyright">
-   <!--container starts-->
-   <div class="container">
-       <p>© 2016 Avhikalpana</p>
-       <ul class="footer_icons">
-           <li><a href="#" class="facebook"><span class="fa fa-facebook"></span></a></li>
+                <div class="column dt-sc-one-fourth">
+                    <aside class="widget mailchimp">
+                        <h3>Contact</h3>
+                        <form method="post" action="http://avhikalpana.org/home/contact_form_data">
+                            <p>
+                                <input type="text" required="" placeholder="Name" name="txtname">
+                            </p>
+                            <p>
+                                <input type="email" required="" placeholder="Email" name="txtemail">
+                            </p>
+                            <p>
+                                <textarea placeholder="Message" name="txtmessage"></textarea>
+                            </p>
+                            <p>
+                                <input type="hidden" name="cross" value="f85295447eadb4dc28b1c510af1fba1a" />
+                            </p>
+                            <p>
+                                <input type="submit" value="Contact" name="submit" class="dt-sc-button small palebrown">
+                            </p>
+                        </form>
+                    </aside>
+                </div>
+            </div>
+            <!--container ends-->
+            <!--copyright starts-->
+            <div class="copyright">
+                <!--container starts-->
+                <div class="container">
+                    <p>© 2016 Avhikalpana</p>
+                    <ul class="footer_icons">
+                        <li>
+                            <a href="#" class="facebook">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                        </li>
                         <!-- <li><a href="#" class="twitter"><span class="fa fa-twitter"></span></a></li>
                         <li><a href="#" class="gplus"><span class="fa fa-google-plus"></span></a></li>
                         <li><a href="#" class="youtube"><span class="fa fa-youtube"></span></a></li> -->
@@ -345,28 +614,30 @@
                 </div>
                 <!--container ends-->
             </div>
-            <!--copyright ends-->       
+            <!--copyright ends-->
         </footer>
         <!--footer ends-->
     </div>
     <!--wrapper ends-->
-    <a href="#" class="back-to-top"><span class="fa fa-angle-up"></span></a>
-    
+    <a href="#" class="back-to-top">
+        <span class="fa fa-angle-up"></span>
+    </a>
+
     <script type="text/javascript" src="../../assets/home/js/jquery.js"></script>
     <script type="text/javascript" src="../../assets/home/js/jquery-migrate.min.js"></script>
 
     <script type="text/javascript" src="../../assets/home/js/jquery.meanmenu.min.js"></script>
-    
+
     <script type="text/javascript" src="../../assets/home/js/jquery.tabs.min.js"></script>
     <script type="text/javascript" src="../../assets/home/js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="../../assets/home/js/jquery-easing-1.3.js"></script>
-    
+
     <script type="text/javascript" src="../../assets/home/js/jquery.nicescroll.min.js"></script>
     <script type="text/javascript" src="../../assets/home/js/jquery.inview.js"></script>
 
     <script type="text/javascript" src="../../assets/home/js/shortcodes.js"></script>
     <script type="text/javascript" src="../../assets/home/js/validation.js"></script>
-    
+
     <script type="text/javascript" src="../../assets/home/js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="../../assets/home/js/jquery.carouFredSel-6.2.0-packed.js"></script>
 
@@ -382,11 +653,12 @@
     <script type='text/javascript' src="../../assets/home/js/greensock.js"></script>
     <script type='text/javascript' src="../../assets/home/js/layerslider.transitions.js"></script>
     <script type="text/javascript">var lsjQuery = jQuery;</script>
-    <script type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_8','jquery'); } else { lsjQuery("#layerslider_8").layerSlider({responsive: false, responsiveUnder: 940, layersContainer: 940, skin: 'noskin', globalBGColor: 'transparent', navStartStop: false, autoPlayVideos: false, yourLogoStyle: 'left: 10px; top: 10px;', cbInit: function(element) { }, cbStart: function(data) { }, cbStop: function(data) { }, cbPause: function(data) { }, cbAnimStart: function(data) { }, cbAnimStop: function(data) { }, cbPrev: function(data) { }, cbNext: function(data) { }, skinsPath: 'http://avhikalpana.org/assets/home/js/layerslider/skins/' }) } }); 
-    </script> 
+    <script type="text/javascript"> lsjQuery(document).ready(function () { if (typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_8', 'jquery'); } else { lsjQuery("#layerslider_8").layerSlider({ responsive: false, responsiveUnder: 940, layersContainer: 940, skin: 'noskin', globalBGColor: 'transparent', navStartStop: false, autoPlayVideos: false, yourLogoStyle: 'left: 10px; top: 10px;', cbInit: function (element) { }, cbStart: function (data) { }, cbStop: function (data) { }, cbPause: function (data) { }, cbAnimStart: function (data) { }, cbAnimStop: function (data) { }, cbPrev: function (data) { }, cbNext: function (data) { }, skinsPath: 'http://avhikalpana.org/assets/home/js/layerslider/skins/' }) } }); 
+    </script>
 </body>
 
 
 
 <!-- Mirrored from avhikalpana.org/student/signup_login/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Dec 2016 07:37:11 GMT -->
+
 </html>
