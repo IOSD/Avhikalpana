@@ -26,9 +26,9 @@
 	
 .home-slider-bg{background:#f8ce79; -webkit-box-shadow: inset 0px 10px 10px -5px #0a4060;-moz-box-shadow: inset 0px 10px 10px -5px #0a4060; box-shadow: inset 0px 10px 10px -5px #0a4060;} 
 	
-.slider-content h2{color:#ffffff; text-shadow: 0px 1px 0px #000000;}
+.slider-content h2{color:#ffffff; text-shadow: 1px 1px 1px #000000;}
 	
-.slider-content .subtitle{color:#6cc5f5;}
+.slider-content .subtitle{color:#6dd5f5;}
 	
 .slider-content .short-desc{background:#1a587d; border:1px solid #2f80b0; color:#6cc5f5;}
 	
